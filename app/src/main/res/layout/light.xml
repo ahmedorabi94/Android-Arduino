@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d5d77"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Intensity"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textAppearance="?android:panelTextAppearance"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_on"
+        android:text="ON"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#259e1f"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_off"
+        android:text="OFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#ff001d"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brightness"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+    <SeekBar
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:max="255"
+        android:progress="1"
+        android:indeterminate="false"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lumn"
+        android:text="0"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_disconnect"
+        android:text="Disconnect"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="80dp"
+        android:background="#b72610"
+        android:layout_marginLeft="20dp"
+
+
+        />
+
+</LinearLayout>
